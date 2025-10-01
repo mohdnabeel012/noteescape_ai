@@ -1,15 +1,15 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-noteescapeai-dev-a6f34-authRole",
-      "UnauthRoleArn": "arn:aws:iam::116981786288:role/amplify-noteescapeai-dev-a6f34-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::116981786288:role/amplify-noteescapeai-dev-a6f34-authRole",
+      "AuthRoleName": "amplify-noteescapeai-dev-32cf4-authRole",
+      "UnauthRoleArn": "arn:aws:iam::116981786288:role/amplify-noteescapeai-dev-32cf4-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::116981786288:role/amplify-noteescapeai-dev-32cf4-authRole",
       "Region": "ap-south-1",
-      "DeploymentBucketName": "amplify-noteescapeai-dev-a6f34-deployment",
-      "UnauthRoleName": "amplify-noteescapeai-dev-a6f34-unauthRole",
-      "StackName": "amplify-noteescapeai-dev-a6f34",
-      "StackId": "arn:aws:cloudformation:ap-south-1:116981786288:stack/amplify-noteescapeai-dev-a6f34/4ef6e720-9e0e-11f0-aaf1-0245459c1719",
-      "AmplifyAppId": "d28u2ksv8olg0"
+      "DeploymentBucketName": "amplify-noteescapeai-dev-32cf4-deployment",
+      "UnauthRoleName": "amplify-noteescapeai-dev-32cf4-unauthRole",
+      "StackName": "amplify-noteescapeai-dev-32cf4",
+      "StackId": "arn:aws:cloudformation:ap-south-1:116981786288:stack/amplify-noteescapeai-dev-32cf4/c38668e0-9ef4-11f0-9ed9-02f78faa4339",
+      "AmplifyAppId": "d9bzy2kfdmvz1"
     }
   }
 }

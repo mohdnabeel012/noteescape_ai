@@ -41,6 +41,7 @@ dependencies:
   amplify_flutter: ^2.6.5
 
   go_router: ^16.2.4
+  amplify_storage_s3: ^2.6.5
 
 dev_dependencies:
   flutter_test:
