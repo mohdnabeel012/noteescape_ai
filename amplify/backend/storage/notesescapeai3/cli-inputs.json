@@ -1,0 +1,12 @@
+{
+  "resourceName": "notesescapeai3",
+  "policyUUID": "e8cc7f71",
+  "bucketName": "notesescapeai3",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

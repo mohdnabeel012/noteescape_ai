@@ -10,6 +10,32 @@
       "StackName": "amplify-noteescapeai-dev-32cf4",
       "StackId": "arn:aws:cloudformation:ap-south-1:116981786288:stack/amplify-noteescapeai-dev-32cf4/c38668e0-9ef4-11f0-9ed9-02f78faa4339",
       "AmplifyAppId": "d9bzy2kfdmvz1"
+    },
+    "categories": {
+      "auth": {
+        "noteescapeai411fe747": {}
+      }
+    }
+  },
+  "devtwo": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-noteescapeai-devtwo-d0a94-authRole",
+      "UnauthRoleArn": "arn:aws:iam::116981786288:role/amplify-noteescapeai-devtwo-d0a94-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::116981786288:role/amplify-noteescapeai-devtwo-d0a94-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-noteescapeai-devtwo-d0a94-deployment",
+      "UnauthRoleName": "amplify-noteescapeai-devtwo-d0a94-unauthRole",
+      "StackName": "amplify-noteescapeai-devtwo-d0a94",
+      "StackId": "arn:aws:cloudformation:ap-south-1:116981786288:stack/amplify-noteescapeai-devtwo-d0a94/7ba9ec50-9f02-11f0-befd-063a48647d9f",
+      "AmplifyAppId": "d9bzy2kfdmvz1"
+    },
+    "categories": {
+      "auth": {
+        "noteescapeai411fe747": {}
+      },
+      "storage": {
+        "notesescapeai3": {}
+      }
     }
   }
 }

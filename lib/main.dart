@@ -1,8 +1,9 @@
 import 'package:amplify_flutter/amplify_flutter.dart';
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
+import 'package:amplify_storage_s3/amplify_storage_s3.dart'; // Import Storage
 import 'package:flutter/material.dart';
 import 'package:amplify_authenticator/amplify_authenticator.dart';
-import 'aws/amplifyconfiguration.dart';
+import 'amplifyconfiguration.dart';
 // Import the new home page
 import 'pages/home_page.dart';
 
@@ -27,11 +28,14 @@ class _MyAppState extends State<MyApp> {
   Future<void> _configureAmplify() async {
     try {
       final auth = AmplifyAuthCognito();
+      final storage = AmplifyStorageS3(); // Instantiate Storage
+
       await Amplify.addPlugin(auth);
+      await Amplify.addPlugin(storage); // Add Storage Plugin
 
       // call Amplify.configure to use the initialized categories in your app
-      // NOTE: Ensure your 'aws/amplifyconfiguration.dart' file exists and is correct.
       await Amplify.configure(amplifyconfig);
+      safePrint('Amplify configured successfully.');
     } on Exception catch (e) {
       safePrint('An error occurred configuring Amplify: $e');
     }
@@ -40,7 +44,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Authenticator(
-      // Keep your custom sign-up form fields
+      // Custom sign-up form fields
       signUpForm: SignUpForm.custom(fields: [
         SignUpFormField.name(required: true),
         SignUpFormField.email(required: true),
@@ -49,11 +53,10 @@ class _MyAppState extends State<MyApp> {
         SignUpFormField.passwordConfirmation(),
       ]),
       child: MaterialApp(
-        // This builder is essential for the Authenticator to manage state and navigation
+        // Essential builder for Authenticator navigation
         builder: Authenticator.builder(),
 
-        // This is the widget shown when the user is successfully signed in.
-        // It now points to your custom HomePage.
+        // The widget shown when the user is successfully signed in.
         home: const HomePage(),
       ),
     );

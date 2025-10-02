@@ -1,0 +1,1023 @@
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Successfully activated service 'net.reactivated.Fprint'
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305203.5908] device (wlp2s0): supplicant interface state: internal-starting -> disconnected
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305203.5909] device (p2p-dev-wlp2s0): state change: unavailable -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305203.5923] Wi-Fi P2P device controlled by interface wlp2s0 created
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305203.5934] manager: (p2p-dev-wlp2s0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/18)
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305203.5939] device (p2p-dev-wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305203.5955] device (wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305203.5965] device (p2p-dev-wlp2s0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: Bluetooth: hci0: Waiting for firmware download to complete
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: Bluetooth: hci0: Firmware loaded in 1549871 usecs
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: Bluetooth: hci0: Waiting for device to boot
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: Bluetooth: hci0: Device booted in 10790 usecs
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-11-5.ddc
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: Bluetooth: hci0: Applying Intel DDC parameters completed
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: Bluetooth: hci0: Firmware revision 0.0 build 14 week 44 2021
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: Reading supported features failed (-16)[0m
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: Bluetooth: hci0: Error reading debug features
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mBluetooth: hci0: HCI LE Coded PHY feature bit is set, but its usage is not supported.[0m
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Battery Provider Manager created
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 kernel: Bluetooth: MGMT ver 1.23
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: [0;1;31m[0;1;39m[0;1;31mprofiles/sap/server.c:sap_server_register() Sap driver initialization failed.[0m
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: [0;1;31m[0;1;39m[0;1;31msap-server: Operation not permitted (1)[0m
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: [0;1;31m[0;1;39m[0;1;31msrc/adv_monitor.c:btd_adv_monitor_power_down() Unexpected NULL btd_adv_monitor_manager object upon power down[0m
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/ldac
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSink/aptx_hd
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx_hd
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSink/aptx
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSink/sbc
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/sbc
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSink/sbc_xq
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/sbc_xq
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/faststream
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSink/opus_05
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/opus_05
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 blueman.desktop[2824]: blueman-applet 13.23.23 WARNING  PowerManager:203 on_adapter_property_changed: adapter powered on while in off state, turning bluetooth on
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activating via systemd: service name='org.blueman.Mechanism' unit='blueman-mechanism.service' requested by ':1.106' (uid=1000 pid=2824 comm="/usr/bin/python3 /usr/bin/blueman-applet" label="unconfined")
+Oct 01 13:23:23 llh-HP-EliteBook-840-G3 systemd[1]: Starting blueman-mechanism.service - Bluetooth management mechanism...
+Oct 01 13:23:24 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Successfully activated service 'org.blueman.Mechanism'
+Oct 01 13:23:24 llh-HP-EliteBook-840-G3 systemd[1]: Started blueman-mechanism.service - Bluetooth management mechanism.
+Oct 01 13:23:24 llh-HP-EliteBook-840-G3 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1759305204.436:363): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/sys/vm/max_map_count" pid=45387 comm="firmware-notifi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0[0m
+Oct 01 13:23:24 llh-HP-EliteBook-840-G3 systemd[2364]: snap.firmware-updater.firmware-notifier.service: Consumed 1.727s CPU time.
+Oct 01 13:23:24 llh-HP-EliteBook-840-G3 fwupd[9407]: 07:53:24.947 FuPluginIntelMe      failed to get public key using /fpf/OemCred: generic failure [0xb]
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=IN[0m
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5456] policy: auto-activating connection 'Azra 5G' (1aefe3ef-0c06-423c-affd-00957ca78137)
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5472] device (wlp2s0): Activation: starting connection 'Azra 5G' (1aefe3ef-0c06-423c-affd-00957ca78137)
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5475] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5489] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5499] device (wlp2s0): Activation: (wifi) access point 'Azra 5G' has security, but secrets are required.
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5500] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5539] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5551] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5562] device (wlp2s0): Activation: (wifi) connection 'Azra 5G' has security, and secrets exist.  No new secrets needed.
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5570] Config: added 'ssid' value 'Azra 5G'
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5571] Config: added 'scan_ssid' value '1'
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5571] Config: added 'bgscan' value 'simple:30:-70:86400'
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5572] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5572] Config: added 'auth_alg' value 'OPEN'
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.5573] Config: added 'psk' value '<hidden>'
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: SME: Trying to authenticate with bc:62:d2:92:1a:f1 (SSID='Azra 5G' freq=5300 MHz)[0m
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 kernel: wlp2s0: authenticate with bc:62:d2:92:1a:f1 (local address=5c:5f:67:f2:ab:c0)
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 kernel: wlp2s0: send auth to bc:62:d2:92:1a:f1 (try 1/3)
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.6420] device (wlp2s0): supplicant interface state: disconnected -> authenticating
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.6421] device (p2p-dev-wlp2s0): supplicant management interface state: disconnected -> authenticating
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: Trying to associate with bc:62:d2:92:1a:f1 (SSID='Azra 5G' freq=5300 MHz)[0m
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 kernel: wlp2s0: authenticated
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 kernel: wlp2s0: associate with bc:62:d2:92:1a:f1 (try 1/3)
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.6537] device (wlp2s0): supplicant interface state: authenticating -> associating
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.6539] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 kernel: wlp2s0: RX AssocResp from bc:62:d2:92:1a:f1 (capab=0x111 status=0 aid=1)
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 kernel: wlp2s0: associated
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: Associated with bc:62:d2:92:1a:f1[0m
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0[0m
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.6740] device (wlp2s0): supplicant interface state: associating -> associated
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.6741] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> associated
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 kernel: [0;38;5;245m[0;1;31m[0;38;5;245mwlp2s0: Limiting TX power to 20 (20 - 0) dBm as advertised by bc:62:d2:92:1a:f1[0m
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: WPA: Key negotiation completed with bc:62:d2:92:1a:f1 [PTK=CCMP GTK=TKIP][0m
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: CTRL-EVENT-CONNECTED - Connection to bc:62:d2:92:1a:f1 completed [id=0 id_str=][0m
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=0[0m
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.7953] device (wlp2s0): supplicant interface state: associated -> completed
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.7954] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Azra 5G"
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.7955] device (p2p-dev-wlp2s0): supplicant management interface state: associated -> completed
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.7961] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.7984] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 avahi-daemon[947]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::42d9:faad:418c:1335.
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 avahi-daemon[947]: New relevant interface wlp2s0.IPv6 for mDNS.
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 avahi-daemon[947]: Registering new address record for fe80::42d9:faad:418c:1335 on wlp2s0.*.
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 chromium_chromium.desktop[33543]: [33543:33643:1001/132326.809131:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.8476] dhcp4 (wlp2s0): state changed new lease, address=192.168.1.10, acd pending
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.9830] dhcp4 (wlp2s0): state changed new lease, address=192.168.1.10
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305206.9843] policy: set 'Azra 5G' (wlp2s0) as default for IPv4 routing and DNS
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 avahi-daemon[947]: Joining mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.1.10.
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 avahi-daemon[947]: New relevant interface wlp2s0.IPv4 for mDNS.
+Oct 01 13:23:26 llh-HP-EliteBook-840-G3 avahi-daemon[947]: Registering new address record for 192.168.1.10 on wlp2s0.IPv4.
+Oct 01 13:23:27 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305207.0246] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 01 13:23:27 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305207.0330] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 01 13:23:27 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305207.0338] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 01 13:23:27 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305207.0375] device (wlp2s0): Activation: successful, device activated.
+Oct 01 13:23:27 llh-HP-EliteBook-840-G3 ModemManager[1145]: [0;1;39m[0;1;31m[0;1;39m<msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.3/0000:02:00.0': not supported by any plugin[0m
+Oct 01 13:23:27 llh-HP-EliteBook-840-G3 ModemManager[1145]: [0;1;39m[0;1;31m[0;1;39m<msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1f.6': not supported by any plugin[0m
+Oct 01 13:23:27 llh-HP-EliteBook-840-G3 systemd[1]: systemd-rfkill.service: Deactivated successfully.
+Oct 01 13:23:28 llh-HP-EliteBook-840-G3 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 01 13:23:28 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:53:28.497958+00:00 | proton.vpn.session.utils:111 | INFO | API:RESPONSE | '/vpn/v1/logicals?SecureCoreFilter=all'
+Oct 01 13:23:28 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:53:28.658588+00:00 | proton.vpn.core.refresher.server_list_refresher:83 | INFO | Next server list refresh scheduled in 0:11:50.681423
+Oct 01 13:23:28 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:53:28.661031+00:00 | proton.vpn.session.utils:111 | INFO | API:RESPONSE | '/feature/v2/frontend'
+Oct 01 13:23:28 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:53:28.663466+00:00 | proton.vpn.core.refresher.feature_flags_refresher:73 | INFO | Next feature flag refresh scheduled in 2:21:20.886944
+Oct 01 13:23:28 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:53:28.663877+00:00 | proton.vpn.session.utils:111 | INFO | API:RESPONSE | '/vpn/v2/clientconfig'
+Oct 01 13:23:28 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:53:28.664650+00:00 | proton.vpn.core.refresher.client_config_refresher:74 | INFO | Next client config refresh scheduled in 2:52:16.247882
+Oct 01 13:23:28 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305208.8369] dhcp6 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 01 13:23:29 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:53:29.012251+00:00 | proton.vpn.app.gtk.widgets.vpn.serverlist.serverlist:127 | INFO | Full server list widget update completed in 0.35 seconds.
+Oct 01 13:23:33 llh-HP-EliteBook-840-G3 gdm-password][45587]: gkr-pam: unlocked login keyring
+Oct 01 13:23:33 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:53:33.891874+00:00 | proton.vpn.app.gtk.services.reconnector.reconnector:156 | INFO | Session unlocked.
+Oct 01 13:23:34 llh-HP-EliteBook-840-G3 dbus-daemon[2399]: [0;1;39m[0;1;31m[0;1;39mapparmor="DENIED" operation="dbus_signal"  bus="session" path="/org/gnome/ScreenSaver" interface="org.gnome.ScreenSaver" member="WakeUpScreen" name=":1.90" mask="receive" pid=33543 label="snap.chromium.chromium" peer_pid=3280 peer_label="unconfined"[0m
+Oct 01 13:23:34 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;39m[0;1;31m[0;1;39mLaunching DING process[0m
+Oct 01 13:23:34 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305214.4804] agent-manager: agent[92d7b0ccf70138c3,:1.87/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: Detected async api for thumbnails
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: (gjs:45664): Gjs-WARNING **: 13:23:35.512: GLib.unix_signal_add has been moved to a separate platform-specific library. Please update your code to use GLibUnix.signal_add instead.
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: 0 DesktopManager() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/desktopManager.js":264:12]
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: 1 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":180:25]
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: 2 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":197:20]
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: 3 <TOP LEVEL> ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":206:12]
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: DBus interface for Switcheroo control (net.hadess.SwitcherooControl) is now available.
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: DBus interface for Nautilus (org.gnome.Nautilus.FileOperations2) is now available.
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: DBus interface for Gvfs daemon (org.gtk.vfs.Metadata) is now available.
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: DBus interface for Nautilus (org.freedesktop.FileManager1) is now available.
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: ** Message: 13:23:35.606: Connecting to org.freedesktop.Tracker3.Miner.Files
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: DING: GNOME nautilus 46.4
+Oct 01 13:23:35 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;39m[0;1;31m[0;1;39mReceived notification for window. 0 notifications remaining.[0m
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Oct 01 13:23:36 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Oct 01 13:23:38 llh-HP-EliteBook-840-G3 systemd-resolved[790]: Clock change detected. Flushing caches.
+Oct 01 13:23:50 llh-HP-EliteBook-840-G3 ModemManager[1145]: [0;1;39m[0;1;31m[0;1;39m<msg> [device /sys/devices/pci0000:00/0000:00:16.3] creating modem with plugin 'generic' and '1' ports[0m
+Oct 01 13:23:50 llh-HP-EliteBook-840-G3 ModemManager[1145]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m<wrn> [plugin/generic] could not grab port ttyS4: Cannot add port 'tty/ttyS4', unhandled port type[0m
+Oct 01 13:23:50 llh-HP-EliteBook-840-G3 ModemManager[1145]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m<wrn> [base-manager] couldn't create modem for device '/sys/devices/pci0000:00/0000:00:16.3': Failed to find primary AT port[0m
+Oct 01 13:23:54 llh-HP-EliteBook-840-G3 systemd[1]: fprintd.service: Deactivated successfully.
+Oct 01 13:23:55 llh-HP-EliteBook-840-G3 systemd[1]: blueman-mechanism.service: Deactivated successfully.
+Oct 01 13:24:06 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:54:06.830470+00:00 | proton.vpn.local_agent/transport_stream.rs:92 | INFO | TransportStream::close
+Oct 01 13:24:06 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:54:06.831678+00:00 | proton.vpn.local_agent/transport_stream.rs:96 | INFO | TransportStream::close:send shutdown
+Oct 01 13:24:06 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:54:06.834005+00:00 | proton.vpn.backend.linux.networkmanager.core.localagent_mixin:78 | WARNING | Agent connection dropped (#1). Retrying in 8.9 seconds.
+Oct 01 13:24:08 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: last_user_time (19028552) is greater than comparison timestamp (19028524).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Oct 01 13:24:08 llh-HP-EliteBook-840-G3 gnome-shell[2619]: Window manager warning: W249 appears to be one of the offending windows with a timestamp of 19028552.  Working around...
+Oct 01 13:24:16 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:54:16.352724+00:00 | proton.vpn.backend.linux.networkmanager.core.localagent_mixin:111 | INFO | Requesting VPN connection features...
+Oct 01 13:24:16 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:54:16.353607+00:00 | proton.vpn.backend.linux.networkmanager.core.localagent_mixin:113 | INFO | VPN connection features requested.
+Oct 01 13:24:16 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:54:16.555310+00:00 | proton.vpn.local_agent/transport_stream.rs:80 | INFO | Receiving: Response { status: Some(StatusMessage { state: Connected, reason: None, features: Some(AgentFeatures { netshield_level: Some(0), randomized_nat: Some(true), split_tcp: Some(true), port_forwarding: Some(false), forwarded_port: None, jail: Some(false), bouncing: Some("0") }), connection_details: Some(ConnectionDetails { device_ip: Some("110.235.239.19"), device_country: Some("IN"), server_ipv4: Some("89.38.97.139"), server_ipv6: Some("2a00:7c80:0:3a5::11") }) }), error: None }
+Oct 01 13:24:16 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:54:16.556397+00:00 | proton.vpn.backend.linux.networkmanager.core.localagent_mixin:118 | INFO | Agent status received: Status { state: CONNECTED, reason: None, features: Some(AgentFeatures { features: AgentFeatures { netshield_level: Some(0), randomized_nat: Some(true), split_tcp: Some(true), port_forwarding: Some(false), forwarded_port: None, jail: Some(false), bouncing: Some("0") } }), connection_details: Some(ConnectionDetails { device_ip: "110.235.239.xxx", device_country: Some("IN"), server_ipv4: Some("89.38.97.139"), server_ipv6: Some("2a00:7c80:0:3a5::11") }) }
+Oct 01 13:24:16 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:54:16.557848+00:00 | proton.vpn.core.connection:472 | INFO | CONN:STATE_CHANGED | Connected
+Oct 01 13:24:54 llh-HP-EliteBook-840-G3 systemd-logind[984]: Power key pressed short.
+Oct 01 13:24:54 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.87' (uid=1000 pid=2619 comm="/usr/bin/gnome-shell" label="unconfined")
+Oct 01 13:24:54 llh-HP-EliteBook-840-G3 systemd[1]: Starting packagekit.service - PackageKit Daemon...
+Oct 01 13:24:54 llh-HP-EliteBook-840-G3 PackageKit[45767]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Oct 01 13:24:54 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 01 13:24:54 llh-HP-EliteBook-840-G3 systemd[1]: Started packagekit.service - PackageKit Daemon.
+Oct 01 13:24:54 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;39m[0;1;31m[0;1;39mendSessionDialog: No XDG_SESSION_ID, fetched from logind: 2[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd-logind[984]: [0;1;39m[0;1;31m[0;1;39mThe system will power off now![0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1107 audit(1759305298.390:364): pid=950 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="PrepareForShutdownWithMetadata" name=":1.14" mask="receive" pid=25383 label="snap.firefox.firefox" peer_pid=984 peer_label="unconfined"[0m
+                                                [0;1;39m exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1107 audit(1759305298.394:365): pid=950 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="PrepareForShutdown" name=":1.14" mask="receive" pid=25383 label="snap.firefox.firefox" peer_pid=984 peer_label="unconfined"[0m
+                                                [0;1;39m exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;39m[0;1;31m[0;1;39mShutting down GNOME Shell[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 kernel: [0;38;5;245m[0;1;31m[0;38;5;245mrfkill: input handler enabled[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: org.gnome.SettingsDaemon.Housekeeping.service: Consumed 2.244s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: org.gnome.SettingsDaemon.Sharing.service: Consumed 7.926s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gnome-session-manager@ubuntu.service - GNOME Session Manager (session: ubuntu).
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: gnome-session-manager@ubuntu.service: Consumed 3.163s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target gnome-session-wayland@ubuntu.target - GNOME Wayland Session (session: ubuntu).
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping gnome-terminal-server.service - GNOME Terminal Server...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping gvfs-daemon.service - Virtual filesystem service...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping gvfs-metadata.service - Virtual filesystem metadata service...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping xdg-desktop-portal-gnome.service - Portal service (GNOME implementation)...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping xdg-desktop-portal.service - Portal service...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping xdg-document-portal.service - flatpak document portal service...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping xdg-permission-store.service - sandboxed app permission store...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 gnome-text-edit[34480]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: gvfs-afc-volume-monitor.service: Consumed 1.161s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gnome-terminal-server.service - GNOME Terminal Server.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: gnome-terminal-server.service: Consumed 5.229s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 nautilus[33183]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gvfs-metadata.service - Virtual filesystem metadata service.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped xdg-permission-store.service - sandboxed app permission store.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: vte-spawn-9cabee8f-aebe-4c9e-b4b4-e3f9fff5c4a3.scope: Consumed 27.256s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: gvfs-udisks2-volume-monitor.service: Consumed 3.989s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped xdg-desktop-portal-gnome.service - Portal service (GNOME implementation).
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: xdg-desktop-portal-gnome.service: Consumed 2.808s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target graphical-session.target - Current graphical user session.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped update-notifier-crash.path - Path trigger for Apport crash notifications.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 gnome-text-edit[34480]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.GoaVolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 gnome-text-edit[34480]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 nautilus[33183]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.GoaVolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 nautilus[33183]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped update-notifier-release.path - Path trigger for new release of Ubuntu notifications.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target gnome-session.target - GNOME Session.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target gnome-session-wayland.target - GNOME Wayland Session.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target gnome-session-x11-services-ready.target - GNOME session X11 services.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target gnome-session@ubuntu.target - GNOME Session (session: ubuntu).
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.A11ySettings.target - GNOME accessibility target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.Color.target - GNOME color management target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.Datetime.target - GNOME date & time target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.Housekeeping.target - GNOME maintenance of expirable data target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.Keyboard.target - GNOME keyboard configuration target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.MediaKeys.target - GNOME keyboard shortcuts target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.Power.target - GNOME power management target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.PrintNotifications.target - GNOME printer notifications target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.Rfkill.target - GNOME RFKill support target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.ScreensaverProxy.target - GNOME FreeDesktop screensaver target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.Sharing.target - GNOME file sharing target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.Smartcard.target - GNOME smartcard target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.Sound.target - GNOME sound sample caching target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.Wacom.target - GNOME Wacom tablet support target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.SettingsDaemon.XSettings.target - GNOME XSettings target.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping org.gnome.SettingsDaemon.Color.service - GNOME color management service...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping org.gnome.SettingsDaemon.Power.service - GNOME power management service...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 gnome-text-edit[34480]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.MTPVolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 nautilus[33183]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.MTPVolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 gnome-text-edit[34480]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 nautilus[33183]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: run-user-1000-doc.mount: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 tracker-miner-f[3263]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 tracker-miner-f[3263]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.GoaVolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 tracker-miner-f[3263]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 tracker-miner-f[3263]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.MTPVolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 tracker-miner-f[3263]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mOwner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: run-user-1000-gvfs.mount: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: org.freedesktop.IBus.session.GNOME.service: Consumed 55.958s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped xdg-desktop-portal.service - Portal service.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: xdg-desktop-portal.service: Consumed 7.100s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped xdg-document-portal.service - flatpak document portal service.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gvfs-daemon.service - Virtual filesystem service.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: gvfs-daemon.service: Consumed 1.376s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 dbus-daemon[2399]: [session uid=1000 pid=2399] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.300' (uid=1000 pid=33183 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd-logind[984]: [0;1;39m[0;1;31m[0;1;39mSystem is powering down.[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: unattended-upgrades.service: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Starting gvfs-daemon.service - Virtual filesystem service...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: org.gnome.SettingsDaemon.XSettings.service: Consumed 4.000s CPU time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target gnome-session-x11-services.target - GNOME session X11 services.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopping session-2.scope - Session 2 of User llh...
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Removed slice system-getty.slice - Slice /system/getty.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Removed slice system-modprobe.slice - Slice /system/modprobe.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target bluetooth.target - Bluetooth Support.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target getty-pre.target - Preparation for Logins.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target graphical.target - Graphical Interface.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target multi-user.target - Multi-User System.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target getty.target - Login Prompts.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target smartcard.target - Smart Card.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target sound.target - Sound Card.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target timers.target - Timer Units.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: anacron.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped anacron.timer - Trigger anacron every hour.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: apt-daily-upgrade.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: apt-daily.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped apt-daily.timer - Daily apt download activities.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: dpkg-db-backup.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped dpkg-db-backup.timer - Daily dpkg database backup timer.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: e2scrub_all.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: fstrim.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped fstrim.timer - Discard unused filesystem blocks once a week.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: fwupd-refresh.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped fwupd-refresh.timer - Refresh fwupd metadata regularly.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: logrotate.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped logrotate.timer - Daily rotation of log files.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: man-db.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped man-db.timer - Daily man-db regeneration.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: motd-news.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped motd-news.timer - Message of the Day.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: sysstat-collect.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped sysstat-collect.timer - Run system activity accounting tool every 10 minutes.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: sysstat-summary.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped sysstat-summary.timer - Generate summary of yesterday's process accounting.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: systemd-tmpfiles-clean.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: ua-timer.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped ua-timer.timer - Ubuntu Pro Timer for running repeated jobs.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: update-notifier-download.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped update-notifier-download.timer - Download data for packages that failed at package install time.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: update-notifier-motd.timer: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopped update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: systemd-rfkill.socket: Deactivated successfully.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Closed systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopping ModemManager.service - Modem Manager...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 ModemManager[1145]: [0;1;39m[0;1;31m[0;1;39m<msg> caught signal, shutting down...[0m
+Oct 01 13:24:58 llh-HP-EliteBook-840-G3 systemd[1]: Stopping accounts-daemon.service - Accounts Service...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gdm-password][2352]: pam_unix(gdm-password:session): session closed for user llh
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[2399]: [session uid=1000 pid=2399] Successfully activated service 'org.gtk.vfs.Daemon'
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping alsa-restore.service - Save/Restore Sound Card State...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[2364]: Started gvfs-daemon.service - Virtual filesystem service.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping apport.service - automatic crash report generation...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 ModemManager[1145]: [0;1;39m[0;1;31m[0;1;39m<msg> ModemManager is shut down[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping bluetooth.service - Bluetooth service...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping colord.service - Manage, Install and Generate Color Profiles...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping cron.service - Regular background program processing daemon...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping cups-browsed.service - Make remote CUPS printers available locally...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping gdm.service - GNOME Display Manager...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping gnome-remote-desktop.service - GNOME Remote Desktop...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping kerneloops.service - Tool to automatically collect and submit kernel crash signatures...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: openvpn.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped openvpn.service - OpenVPN service.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Terminating
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping packagekit.service - PackageKit Daemon...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: plymouth-quit-wait.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped plymouth-quit-wait.service - Hold until boot process finishes up.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping power-profiles-daemon.service - Power Profiles daemon...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping rsyslog.service - System Logging Service...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping rtkit-daemon.service - RealtimeKit Scheduling Policy Service...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping snap.canonical-livepatch.canonical-livepatchd.service - Service for snap application canonical-livepatch.canonical-livepatchd...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305299.0480] modem-manager: ModemManager no longer available
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping snap.cups.cups-browsed.service - Service for snap application cups.cups-browsed...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 rsyslogd[1026]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="1026" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping snap.cups.cupsd.service - Service for snap application cups.cupsd...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: snapd.seeded.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped snapd.seeded.service - Wait until snapd is fully seeded.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: snapd.seeded.service: Consumed 1.342s CPU time, 33.4M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping snapd.service - Snap Daemon...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: snapd.system-shutdown.service - Ubuntu core (all-snaps) system shutdown helper setup service was skipped because no trigger condition checks were met.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: sysstat.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped sysstat.service - Resets System Activity Logs.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping systemd-random-seed.service - Load/Save OS Random Seed...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping thermald.service - Thermal Daemon Service...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping udisks2.service - Disk Manager...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping upower.service - Daemon for power management...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 thermald[985]: [0;1;39m[0;1;31m[0;1;39mTerminating ...[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 canonical-livepatch.canonical-livepatchd[1488]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer received context done, stopping.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/ldac
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSink/aptx_hd
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx_hd
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSink/aptx
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSink/sbc
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/sbc
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSink/sbc_xq
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/sbc_xq
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/faststream
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSink/opus_05
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/opus_05
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gnome-session-monitor.service - Monitor Session leader for GNOME Session.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: power-profiles-daemon.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped power-profiles-daemon.service - Power Profiles daemon.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: accounts-daemon.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped accounts-daemon.service - Accounts Service.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: accounts-daemon.service: Consumed 1.061s CPU time, 4.1M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: cron.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped cron.service - Regular background program processing daemon.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.84" (uid=1000 pid=2386 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.7" (uid=0 pid=949 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: cron.service: Consumed 1.441s CPU time, 1.6M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: rsyslog.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped rsyslog.service - System Logging Service.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: rsyslog.service: Consumed 1.281s CPU time, 5.1M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: ModemManager.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped ModemManager.service - Modem Manager.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: ModemManager.service: Consumed 2.672s CPU time, 8.6M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: rtkit-daemon.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped rtkit-daemon.service - RealtimeKit Scheduling Policy Service.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 canonical-livepatch.canonical-livepatchd[1488]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer received context done, stopping.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 canonical-livepatch.canonical-livepatchd[1488]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mSocket server shutting down.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: colord.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped colord.service - Manage, Install and Generate Color Profiles.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: colord.service: Consumed 15.112s CPU time, 31.4M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: packagekit.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped packagekit.service - PackageKit Daemon.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: alsa-restore.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped alsa-restore.service - Save/Restore Sound Card State.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: systemd-random-seed.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-random-seed.service - Load/Save OS Random Seed.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: kerneloops.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped kerneloops.service - Tool to automatically collect and submit kernel crash signatures.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-logind[984]: Session 2 logged out. Waiting for processes to exit.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305299.2580] device (proton0): state change: activated -> deactivating (reason 'connection-removed', sys-iface-state: 'managed')
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 udisksd[987]: [0;1;39m[0;1;31m[0;1;39mudisks daemon version 2.10.1 exiting[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=1006 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target nss-lookup.target - Host and Network Name Lookups.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:54:59.300370+00:00 | proton.vpn.backend.linux.networkmanager.core.local_agent.listener:72 | INFO | Agent listener successfully stopped.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 protonvpn-app.desktop[12190]: 2025-10-01T07:54:59.300665+00:00 | proton.vpn.core.connection:472 | INFO | CONN:STATE_CHANGED | Disconnected
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 canonical-livepatch.canonical-livepatchd[1488]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mSocket server shutting down.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Transaction for NetworkManager-dispatcher.service/start is destructive (systemd-fsck@dev-disk-by\x2duuid-4491\x2dD8AE.service has 'stop' job queued, but 'start' is included in transaction).
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping polkit.service - Authorization Manager...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=1006 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mRequested transaction contradicts existing jobs: Transaction for NetworkManager-dispatcher.service/start is destructive (systemd-fsck@dev-disk-by\x2duuid-4491\x2dD8AE.service has 'stop' job queued, but 'start' is included in transaction).[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Transaction for NetworkManager-dispatcher.service/start is destructive (systemd-tmpfiles-setup-dev.service has 'stop' job queued, but 'start' is included in transaction).
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: gnome-remote-desktop.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped gnome-remote-desktop.service - GNOME Remote Desktop.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305299.2823] device (proton0): state change: deactivating -> disconnected (reason 'connection-removed', sys-iface-state: 'managed')
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mRequested transaction contradicts existing jobs: Transaction for NetworkManager-dispatcher.service/start is destructive (systemd-tmpfiles-setup-dev.service has 'stop' job queued, but 'start' is included in transaction).[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: gdm.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped gdm.service - GNOME Display Manager.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping fwupd.service - Firmware update daemon...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 fwupd[9407]: 07:54:59.334 FuMain               Received SIGTERM
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 canonical-livepatch.canonical-livepatchd[1488]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mReceived context done signal (context canceled), stopping kernel event listener.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Starting plymouth-poweroff.service - Show Plymouth Power Off Screen...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping switcheroo-control.service - Switcheroo Control Proxy service...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: polkit.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped polkit.service - Authorization Manager.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: polkit.service: Consumed 5.047s CPU time, 7.4M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: cups-browsed.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped cups-browsed.service - Make remote CUPS printers available locally.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target network-online.target - Network is Online.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: NetworkManager-wait-online.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped NetworkManager-wait-online.service - Network Manager Wait Online.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping avahi-daemon.service - Avahi mDNS/DNS-SD Stack...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopping cups.service - CUPS Scheduler...
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: ipv6leakintrf0: Bus client set search domain list to: ~.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 avahi-daemon[947]: Got SIGTERM, quitting.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Received SIGRTMIN+20 from PID 45935 (plymouthd).
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 avahi-daemon[947]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fe80::42d9:faad:418c:1335.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: upower.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 avahi-daemon[947]: Leaving mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.1.10.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped upower.service - Daemon for power management.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 avahi-daemon[947]: Leaving mDNS multicast group on interface lo.IPv6 with address ::1.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: upower.service: Consumed 5.117s CPU time, 3.7M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 avahi-daemon[947]: Leaving mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 avahi-daemon[947]: avahi-daemon 0.8 exiting.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Battery Provider Manager destroyed
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Stopping SDP server
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 bluetoothd[949]: Exit
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: switcheroo-control.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped switcheroo-control.service - Switcheroo Control Proxy service.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: ipv6leakintrf0: Bus client set default route setting: yes
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 canonical-livepatch.canonical-livepatchd[1488]: [0;1;31m[0;1;39m[0;1;31mdaemon shutting down[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: ipv6leakintrf0: Bus client set DNS server list to: ::1
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnap.canonical-livepatch.canonical-livepatchd.service: Main process exited, code=exited, status=1/FAILURE[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185msnap.canonical-livepatch.canonical-livepatchd.service: Failed with result 'exit-code'.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped snap.canonical-livepatch.canonical-livepatchd.service - Service for snap application canonical-livepatch.canonical-livepatchd.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: snap.canonical-livepatch.canonical-livepatchd.service: Consumed 6.705s CPU time, 25.9M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: avahi-daemon.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped avahi-daemon.service - Avahi mDNS/DNS-SD Stack.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: avahi-daemon.service: Consumed 3.005s CPU time, 2.2M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: bluetooth.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped bluetooth.service - Bluetooth service.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 snapd[975]: main.go:168: Exiting on terminated signal.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: udisks2.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mAttempting to call back into JSAPI during the sweeping phase of GC. This is most likely caused by not destroying a Clutter actor or Gtk+ widget with ::destroy signals connected, but can also be caused by using the destroy(), dispose(), or remove() vfuncs. Because it would crash the application, it has been blocked and the JS callback not invoked.[0m
+                                                           [0;1;38;5;185mThe offending signal was kill-window-effects on ShellWM 0x5aa34cda14b0.[0m
+                                                           [0;1;38;5;185m== Stack trace for context 0x5aa34c6772c0 ==[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mAttempting to call back into JSAPI during the sweeping phase of GC. This is most likely caused by not destroying a Clutter actor or Gtk+ widget with ::destroy signals connected, but can also be caused by using the destroy(), dispose(), or remove() vfuncs. Because it would crash the application, it has been blocked and the JS callback not invoked.[0m
+                                                           [0;1;38;5;185mThe offending signal was destroy on ShellWM 0x5aa34cda14b0.[0m
+                                                           [0;1;38;5;185m== Stack trace for context 0x5aa34c6772c0 ==[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mAttempting to call back into JSAPI during the sweeping phase of GC. This is most likely caused by not destroying a Clutter actor or Gtk+ widget with ::destroy signals connected, but can also be caused by using the destroy(), dispose(), or remove() vfuncs. Because it would crash the application, it has been blocked and the JS callback not invoked.[0m
+                                                           [0;1;38;5;185mThe offending signal was destroy on ShellWM 0x5aa34cda14b0.[0m
+                                                           [0;1;38;5;185m== Stack trace for context 0x5aa34c6772c0 ==[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mAttempting to call back into JSAPI during the sweeping phase of GC. This is most likely caused by not destroying a Clutter actor or Gtk+ widget with ::destroy signals connected, but can also be caused by using the destroy(), dispose(), or remove() vfuncs. Because it would crash the application, it has been blocked and the JS callback not invoked.[0m
+                                                           [0;1;38;5;185mThe offending signal was notify on MetaDisplay 0x5aa34cdd57d0.[0m
+                                                           [0;1;38;5;185m== Stack trace for context 0x5aa34c6772c0 ==[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mAttempting to call back into JSAPI during the sweeping phase of GC. This is most likely caused by not destroying a Clutter actor or Gtk+ widget with ::destroy signals connected, but can also be caused by using the destroy(), dispose(), or remove() vfuncs. Because it would crash the application, it has been blocked and the JS callback not invoked.[0m
+                                                           [0;1;38;5;185mThe offending signal was notify on MetaDisplay 0x5aa34cdd57d0.[0m
+                                                           [0;1;38;5;185m== Stack trace for context 0x5aa34c6772c0 ==[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mAttempting to call back into JSAPI during the sweeping phase of GC. This is most likely caused by not destroying a Clutter actor or Gtk+ widget with ::destroy signals connected, but can also be caused by using the destroy(), dispose(), or remove() vfuncs. Because it would crash the application, it has been blocked and the JS callback not invoked.[0m
+                                                           [0;1;38;5;185mThe offending signal was notify on MetaDisplay 0x5aa34cdd57d0.[0m
+                                                           [0;1;38;5;185m== Stack trace for context 0x5aa34c6772c0 ==[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mAttempting to call back into JSAPI during the sweeping phase of GC. This is most likely caused by not destroying a Clutter actor or Gtk+ widget with ::destroy signals connected, but can also be caused by using the destroy(), dispose(), or remove() vfuncs. Because it would crash the application, it has been blocked and the JS callback not invoked.[0m
+                                                           [0;1;38;5;185mThe offending signal was window-left-monitor on MetaDisplay 0x5aa34cdd57d0.[0m
+                                                           [0;1;38;5;185m== Stack trace for context 0x5aa34c6772c0 ==[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mAttempting to call back into JSAPI during the sweeping phase of GC. This is most likely caused by not destroying a Clutter actor or Gtk+ widget with ::destroy signals connected, but can also be caused by using the destroy(), dispose(), or remove() vfuncs. Because it would crash the application, it has been blocked and the JS callback not invoked.[0m
+                                                           [0;1;38;5;185mThe offending signal was window-left-monitor on MetaDisplay 0x5aa34cdd57d0.[0m
+                                                           [0;1;38;5;185m== Stack trace for context 0x5aa34c6772c0 ==[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mAttempting to call back into JSAPI during the sweeping phase of GC. This is most likely caused by not destroying a Clutter actor or Gtk+ widget with ::destroy signals connected, but can also be caused by using the destroy(), dispose(), or remove() vfuncs. Because it would crash the application, it has been blocked and the JS callback not invoked.[0m
+                                                           [0;1;38;5;185mThe offending signal was unmanaged on MetaWindowWayland 0x5aa34e64c100.[0m
+                                                           [0;1;38;5;185m== Stack trace for context 0x5aa34c6772c0 ==[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-shell[2619]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mAttempting to call back into JSAPI during the sweeping phase of GC. This is most likely caused by not destroying a Clutter actor or Gtk+ widget with ::destroy signals connected, but can also be caused by using the destroy(), dispose(), or remove() vfuncs. Because it would crash the application, it has been blocked and the JS callback not invoked.[0m
+                                                           [0;1;38;5;185mThe offending signal was unmanaged on MetaWindowWayland 0x5aa34e64c100.[0m
+                                                           [0;1;38;5;185m== Stack trace for context 0x5aa34c6772c0 ==[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped udisks2.service - Disk Manager.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: udisks2.service: Consumed 8.730s CPU time, 10.2M memory peak, 0B memory swap peak.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305299.5302] device (proton0): state change: disconnected -> unmanaged (reason 'user-requested', sys-iface-state: 'managed')
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 NetworkManager[1006]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m<warn>  [1759305299.5652] dns-sd-resolved[1cdd923034d7b02e]: send-updates SetLinkDomains@8 failed: GDBus.Error:org.freedesktop.resolve1.NoSuchLink: Link 8 not known[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 blueman.desktop[2824]: blueman-applet 13.24.59 WARNING  DiscvManager:119 update_menuitems: warning: Adapter is None
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mRequested transaction contradicts existing jobs: Transaction for polkit.service/start is destructive (systemd-modules-load.service has 'stop' job queued, but 'start' is included in transaction).[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.13' (uid=0 pid=1006 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: cups.service: Deactivated successfully.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[1]: Stopped cups.service - CUPS Scheduler.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activation via systemd failed for unit 'polkit.service': Transaction for polkit.service/start is destructive (systemd-modules-load.service has 'stop' job queued, but 'start' is included in transaction).
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305299.5851] audit: op="connection-delete" uuid="86f36d7f-a376-49ab-a9e7-d36c4526ed75" name="ProtonVPN NL-FREE#74" pid=12190 uid=1000 result="fail" reason="Error checking authorization: GDBus.Error:org.freedesktop.systemd1.TransactionIsDestructive: Transaction for polkit.service/start is destructive (systemd-modules-load.service has 'stop' job queued, but 'start' is included in transaction)."
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of UDP+EDNS0 for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 blueman.desktop[2824]: blueman-applet 13.24.59 WARNING  DiscvManager:119 update_menuitems: warning: Adapter is None
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 update-notifier[3713]: [0;1;39m[0;1;31m[0;1;39mError reading events from display: Broken pipe[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 protonvpn-app[12190]: [0;1;39m[0;1;31m[0;1;39mError reading events from display: Broken pipe[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 unknown[3359]: [0;1;39m[0;1;31m[0;1;39mError reading events from display: Broken pipe[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 nautilus[33183]: [0;1;39m[0;1;31m[0;1;39mError reading events from display: Connection reset by peer[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 evolution-alarm[2818]: [0;1;39m[0;1;31m[0;1;39mError reading events from display: Broken pipe[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 gnome-text-edit[34480]: [0;1;39m[0;1;31m[0;1;39mError reading events from display: Broken pipe[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 unknown[3369]: [0;1;39m[0;1;31m[0;1;39mError reading events from display: Broken pipe[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 chrome[33543]: [0;1;39m[0;1;31m[0;1;39mError reading events from display: Broken pipe[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[2364]: [0;1;39m[0;1;31m[0;1;39mxdg-desktop-portal-gtk.service: Main process exited, code=exited, status=1/FAILURE[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[2364]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mxdg-desktop-portal-gtk.service: Failed with result 'exit-code'.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[2364]: app-gnome-update\x2dnotifier-3713.scope: Consumed 21.335s CPU time.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 snapd-desktop-i[3167]: [0;1;39m[0;1;31m[0;1;39mError reading events from display: Broken pipe[0m
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[2364]: app-gnome-protonvpn\x2dapp-12190.scope: Consumed 1min 5.331s CPU time.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 systemd[2364]: app-gnome-org.gnome.TextEditor-34480.scope: Consumed 5.986s CPU time.
+Oct 01 13:24:59 llh-HP-EliteBook-840-G3 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1107 audit(1759305299.993:366): pid=950 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/" interface="org.freedesktop.DBus.Peer" member="Ping" mask="send" name="org.freedesktop.Avahi" pid=1918 label="snap.cups.cupsd"[0m
+                                                [0;1;39m exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.gnome.SettingsDaemon.Color.service - GNOME color management service.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: fwupd.service: Deactivated successfully.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: Stopped fwupd.service - Firmware update daemon.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: fwupd.service: Consumed 8.976s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.gnome.SettingsDaemon.Power.service - GNOME power management service.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: org.gnome.SettingsDaemon.Power.service: Consumed 2.836s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 thermald[985]: [0;1;39m[0;1;31m[0;1;39mterminating on user request ..[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: org.gnome.SettingsDaemon.MediaKeys.service: Consumed 3.998s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: [0;1;39m[0;1;31m[0;1;39msnap.chromium.chromium-69d4eaf2-229d-4d11-a543-8919cb81698a.scope: Consumed 16min 26.774s CPU time.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target gnome-session-initialized.target - GNOME Session is initialized.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target org.gnome.Shell.target - GNOME Shell.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping org.gnome.Shell@wayland.service - GNOME Shell on Wayland...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Consumed 1.210s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: apport.service: Deactivated successfully.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: Stopped apport.service - automatic crash report generation.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + [ -f /var/snap/cups/1100/var/run/stop-cups-browsed.lock ]
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + touch /var/snap/cups/1100/var/run/stop-cups-browsed.lock
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cupsd[45876]: + [ -f /var/snap/cups/1100/var/run/stop-cupsd.lock ]
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cupsd[45876]: + echo ==> We are already shutting down cupsd
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cupsd[45876]: ==> We are already shutting down cupsd
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cupsd[45876]: + exit 0
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped org.gnome.Shell@wayland.service - GNOME Shell on Wayland.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: [0;1;39m[0;1;31m[0;1;39morg.gnome.Shell@wayland.service: Consumed 51min 2.395s CPU time.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target gnome-session-manager.target - GNOME Session Manager is ready.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target gnome-session-pre.target - Tasks to be run before GNOME Session starts.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target graphical-session-pre.target - Session services which should run early before the graphical session is brought up.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Reached target gnome-session-shutdown.target - Shutdown running GNOME Session.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Starting gnome-session-restart-dbus.service - Restart DBus after GNOME Session shutdown...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target gnome-session-shutdown.target - Shutdown running GNOME Session.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + echo ==> Shutting down cups-browsed
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: ==> Shutting down cups-browsed
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[46049]: + cat /var/snap/cups/1100/var/run/cups-browsed.pid
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1326 audit(1759305300.659:367): auid=4294967295 uid=0 gid=0 ses=4294967295 subj=snap.cups.cupsd pid=1917 comm="cupsd" exe="/snap/cups/1100/sbin/cupsd" sig=0 arch=c000003e syscall=93 compat=0 ip=0x775fd550da9b code=0x50000[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Started gnome-session-restart-dbus.service - Restart DBus after GNOME Session shutdown.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + PID=1939
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + [ -n 1939 ]
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + kill -0 1939
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + kill -TERM 1939
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + DEAD=0
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[46054]: + seq 300
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[1489]: Terminated
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnap.cups.cups-browsed.service: Main process exited, code=exited, status=143/n/a[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + kill -0 1939
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + DEAD=1
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + break
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + [ 1 = 0 ]
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + rm -f /var/snap/cups/1100/var/run/cups-browsed.pid
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping dbus.service - D-Bus User Message Bus...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: app-gnome-at\x2dspi\x2ddbus\x2dbus-2618.scope: Consumed 1.112s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 cups.cups-browsed[45865]: + rm -f /var/snap/cups/1100/var/run/stop-cups-browsed.lock
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 evolution-calen[3035]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mError setting property 'ConnectionStatus' on interface org.gnome.evolution.dataserver.Source: The connection is closed (g-io-error-quark, 18)[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: [0;1;39m[0;1;31m[0;1;39mobex.service: Main process exited, code=exited, status=1/FAILURE[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mobex.service: Failed with result 'exit-code'.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 firefox_firefox.desktop[25383]: [Parent 25383, Main Thread] WARNING: g_dbus_connection_unregister_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:201
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 firefox[25383]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mg_dbus_connection_unregister_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 firefox_firefox.desktop[25383]: [Parent 25383, Main Thread] WARNING: nsDBusRemoteServer: Unable to unregister root object from within onNameLost!: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:201
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 firefox[25383]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnsDBusRemoteServer: Unable to unregister root object from within onNameLost![0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185msnap.cups.cups-browsed.service: Failed with result 'exit-code'.[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: Stopped snap.cups.cups-browsed.service - Service for snap application cups.cups-browsed.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: snap.cups.cups-browsed.service: Consumed 1.597s CPU time, 10.5M memory peak, 0B memory swap peak.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 gvfsd[45845]: A connection to the bus can't be made
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 gvfsd[45863]: A connection to the bus can't be made
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 gvfsd[45864]: A connection to the bus can't be made
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: session-2.scope: Deactivated successfully.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: Stopped session-2.scope - Session 2 of User llh.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: session-2.scope: Consumed 3.173s CPU time, 12.7M memory peak, 0B memory swap peak.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: run-user-1000-gvfs.mount: Deactivated successfully.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: gnome-keyring-daemon.service: Consumed 1.040s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: Stopping systemd-logind.service - User Login Management...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 io.snapcraft.Launcher[3637]: Exiting on terminated.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd-logind[984]: Removed session 2.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Activating special unit exit.target...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gvfs-daemon.service - Virtual filesystem service.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping app-gnome-blueman-2824.scope - Application launched by gnome-session-binary...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped app-gnome-gnome\x2dkeyring\x2dpkcs11-2602.scope - Application launched by gnome-session-binary.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped app-gnome-snap\x2duserd\x2dautostart-2839.scope - Application launched by gnome-session-binary.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping snap.android-studio.android-studio-e0fa0ab2-0bd0-47d3-987c-dde98804385b.scope...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping snap.firefox.firefox-cdac8898-0b2a-4e45-b71f-ecc992258a3d.scope...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Removed slice app-gnome\x2dsession\x2dmanager.slice - Slice /app/gnome-session-manager.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: app-gnome\x2dsession\x2dmanager.slice: Consumed 3.163s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Removed slice app-org.gnome.Terminal.slice - Slice /app/org.gnome.Terminal.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: app-org.gnome.Terminal.slice: Consumed 2min 50.061s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target bluetooth.target - Bluetooth.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target default.target - Main User Target.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target smartcard.target - Smart Card.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping evolution-addressbook-factory.service - Evolution address book service...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping evolution-calendar-factory.service - Evolution calendar service...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping evolution-source-registry.service - Evolution source registry...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping filter-chain.service - PipeWire filter chain daemon...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping gcr-ssh-agent.service - GCR ssh-agent wrapper...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Consumed 1.210s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping tracker-miner-fs-3.service - Tracker file system data miner...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped gcr-ssh-agent.service - GCR ssh-agent wrapper.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped dbus.service - D-Bus User Message Bus.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: dbus.service: Consumed 49.755s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped filter-chain.service - PipeWire filter chain daemon.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: pipewire-pulse.service: Consumed 1min 21.819s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping wireplumber.service - Multimedia Service Session Manager...
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped app-gnome-blueman-2824.scope - Application launched by gnome-session-binary.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[2364]: app-gnome-blueman-2824.scope: Consumed 43.259s CPU time.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 wireplumber[2386]: [0;1;39m[0;1;31m[0;1;39mstopped by signal: Terminated[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 wireplumber[2386]: [0;1;39m[0;1;31m[0;1;39mdisconnected from pipewire[0m
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: systemd-logind.service: Deactivated successfully.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-logind.service - User Login Management.
+Oct 01 13:25:00 llh-HP-EliteBook-840-G3 systemd[1]: systemd-logind.service: Consumed 3.015s CPU time, 4.0M memory peak, 0B memory swap peak.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped snap.firefox.firefox-cdac8898-0b2a-4e45-b71f-ecc992258a3d.scope.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: [0;1;39m[0;1;31m[0;1;39msnap.firefox.firefox-cdac8898-0b2a-4e45-b71f-ecc992258a3d.scope: Consumed 3h 9min 45.845s CPU time.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped evolution-calendar-factory.service - Evolution calendar service.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped evolution-addressbook-factory.service - Evolution address book service.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped wireplumber.service - Multimedia Service Session Manager.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: wireplumber.service: Consumed 9.739s CPU time.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping pipewire.service - PipeWire Multimedia Service...
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped pipewire.service - PipeWire Multimedia Service.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: pipewire.service: Consumed 1min 6.151s CPU time.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Removed slice session.slice - User Core Session Slice.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: [0;1;39m[0;1;31m[0;1;39msession.slice: Consumed 56min 8.062s CPU time.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set TCP instead of UDP for DNS server ::1.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd-resolved[790]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUsing degraded feature set UDP instead of TCP for DNS server ::1.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped evolution-source-registry.service - Evolution source registry.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped snap.android-studio.android-studio-e0fa0ab2-0bd0-47d3-987c-dde98804385b.scope.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: [0;1;39m[0;1;31m[0;1;39msnap.android-studio.android-studio-e0fa0ab2-0bd0-47d3-987c-dde98804385b.scope: Consumed 20min 56.594s CPU time.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Received SIGRTMIN+20 from PID 45935 (plymouthd).
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: thermald.service: Deactivated successfully.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped thermald.service - Thermal Daemon Service.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: thermald.service: Consumed 1.846s CPU time, 6.9M memory peak, 0B memory swap peak.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Started plymouth-poweroff.service - Show Plymouth Power Off Screen.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: plymouth-switch-root-initramfs.service - Tell Plymouth To Jump To initramfs was skipped because no trigger condition checks were met.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped tracker-miner-fs-3.service - Tracker file system data miner.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: tracker-miner-fs-3.service: Consumed 2.335s CPU time.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Removed slice background.slice - User Background Tasks Slice.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: background.slice: Consumed 2.335s CPU time.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target basic.target - Basic System.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target paths.target - Paths.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped ubuntu-report.path - Pending report trigger for Ubuntu Report.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target sockets.target - Sockets.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped target timers.target - Timers.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopped snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed dbus.socket - D-Bus User Message Bus Socket.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed keyboxd.socket - GnuPG public key management service.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed pk-debconf-helper.socket - debconf communication socket.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed snapd.session-agent.socket - REST API socket for snapd user session agent.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed speech-dispatcher.socket - Speech Dispatcher Socket.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Removed slice app.slice - User Application Slice.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: [0;1;39m[0;1;31m[0;1;39mapp.slice: Consumed 6h 47min 21.175s CPU time.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Reached target shutdown.target - Shutdown.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Finished systemd-exit.service - Exit the Session.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[2364]: Reached target exit.target - Exit the Session.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: user@1000.service: Deactivated successfully.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39muser@1000.service: Consumed 7h 43min 43.370s CPU time, 1.5G memory peak, 0B memory swap peak.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopping systemd-oomd.service - Userspace Out-Of-Memory (OOM) Killer...
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopping systemd-user-sessions.service - Permit User Sessions...
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: systemd-user-sessions.service: Deactivated successfully.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-user-sessions.service - Permit User Sessions.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: systemd-oomd.service: Deactivated successfully.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-oomd.service - Userspace Out-Of-Memory (OOM) Killer.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: systemd-oomd.service: Consumed 13.775s CPU time, 2.7M memory peak, 0B memory swap peak.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target nss-user-lookup.target - User and Group Name Lookups.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target remote-fs.target - Remote File Systems.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted run-user-1000.mount - /run/user/1000.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39muser-1000.slice: Consumed 7h 43min 46.575s CPU time, 1.5G memory peak, 0B memory swap peak.[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: snap.cups.cupsd.service: Deactivated successfully.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped snap.cups.cupsd.service - Service for snap application cups.cupsd.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: snap.cups.cupsd.service: Consumed 4.302s CPU time, 37.2M memory peak, 0B memory swap peak.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target network.target - Network.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopping NetworkManager.service - Network Manager...
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.4371] caught SIGTERM, shutting down normally.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopping wpa_supplicant.service - WPA supplicant...
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mp2p-dev-wlp2s0: CTRL-EVENT-DSCP-POLICY clear_all[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mp2p-dev-wlp2s0: CTRL-EVENT-DSCP-POLICY clear_all[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mnl80211: deinit ifname=p2p-dev-wlp2s0 disabled_11b_rates=0[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mp2p-dev-wlp2s0: CTRL-EVENT-TERMINATING[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 kernel: wlp2s0: deauthenticating from bc:62:d2:92:1a:f1 by local choice (Reason: 3=DEAUTH_LEAVING)
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: CTRL-EVENT-DISCONNECTED bssid=bc:62:d2:92:1a:f1 reason=3 locally_generated=1[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.4963] device (wlp2s0): state change: activated -> deactivating (reason 'unmanaged', sys-iface-state: 'managed')
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: CTRL-EVENT-DSCP-POLICY clear_all[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=1006 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mRequested transaction contradicts existing jobs: Transaction for NetworkManager-dispatcher.service/start is destructive (shutdown.target has 'start' job queued, but 'stop' is included in transaction).[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Transaction for NetworkManager-dispatcher.service/start is destructive (shutdown.target has 'start' job queued, but 'stop' is included in transaction).
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m<warn>  [1759305301.5036] dispatcher: (122) failed (after 0.006 sec): Transaction for NetworkManager-dispatcher.service/start is destructive (shutdown.target has 'start' job queued, but 'stop' is included in transaction).[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.5039] device (wlp2s0): state change: deactivating -> unmanaged (reason 'removed', sys-iface-state: 'managed')
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.5041] dhcp4 (wlp2s0): canceled DHCP transaction
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.5041] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.5042] dhcp4 (wlp2s0): state changed no lease
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.5045] dhcp6 (wlp2s0): canceled DHCP transaction
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.5045] dhcp6 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.5045] dhcp6 (wlp2s0): state changed no lease
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=1006 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mRequested transaction contradicts existing jobs: Transaction for NetworkManager-dispatcher.service/start is destructive (shutdown.target has 'start' job queued, but 'stop' is included in transaction).[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Transaction for NetworkManager-dispatcher.service/start is destructive (shutdown.target has 'start' job queued, but 'stop' is included in transaction).
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: CTRL-EVENT-DSCP-POLICY clear_all[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mnl80211: deinit ifname=wlp2s0 disabled_11b_rates=0[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 wpa_supplicant[1009]: [0;1;39m[0;1;31m[0;1;39mwlp2s0: CTRL-EVENT-TERMINATING[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: wpa_supplicant.service: Deactivated successfully.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped wpa_supplicant.service - WPA supplicant.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: wpa_supplicant.service: Consumed 4.871s CPU time, 6.1M memory peak, 0B memory swap peak.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=1006 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.5704] device (p2p-dev-wlp2s0): state change: disconnected -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.5718] manager: NetworkManager state is now CONNECTED_SITE
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mRequested transaction contradicts existing jobs: Transaction for NetworkManager-dispatcher.service/start is destructive (shutdown.target has 'start' job queued, but 'stop' is included in transaction).[0m
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 dbus-daemon[950]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.nm-dispatcher.service': Transaction for NetworkManager-dispatcher.service/start is destructive (shutdown.target has 'start' job queued, but 'stop' is included in transaction).
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 NetworkManager[1006]: <info>  [1759305301.5865] exiting (success)
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: NetworkManager.service: Deactivated successfully.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped NetworkManager.service - Network Manager.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: NetworkManager.service: Consumed 18.717s CPU time, 34.1M memory peak, 0B memory swap peak.
+Oct 01 13:25:01 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target network-pre.target - Preparation for Network.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 snapd[975]: overlord.go:528: Released state lock file
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snapd.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped snapd.service - Snap Daemon.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snapd.service: Consumed 1min 3ms CPU time, 1.2G memory peak, 0B memory swap peak.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target basic.target - Basic System.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-ask-password-plymouth.path: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target paths.target - Path Units.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: cups.path: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped cups.path - CUPS Scheduler.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: whoopsie.path: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped whoopsie.path - Start whoopsie on modification of the /var/crash directory.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target slices.target - Slice Units.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Removed slice user.slice - User and Session Slice.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39muser.slice: Consumed 7h 43min 58.445s CPU time, 1.7G memory peak, 0B memory swap peak.[0m
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target sockets.target - Socket Units.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target time-set.target - System Time Set.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: avahi-daemon.socket: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Closed avahi-daemon.socket - Avahi mDNS/DNS-SD Stack Activation Socket.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: cups.socket: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Closed cups.socket - CUPS Scheduler.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snapd.socket: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Closed snapd.socket - Socket activation for snappy daemon.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: syslog.socket: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Closed syslog.socket - Syslog Socket.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-oomd.socket: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Closed systemd-oomd.socket - Userspace Out-Of-Memory (OOM) Killer Socket.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: uuidd.socket: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Closed uuidd.socket - UUID daemon activation socket.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target sysinit.target - System Initialization.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target cryptsetup.target - Local Encrypted Volumes.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-ask-password-wall.path: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target integritysetup.target - Local Integrity Protected Volumes.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target veritysetup.target - Local Verity Protected Volumes.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185matkbd serio0: Unknown key pressed (translated set 2, code 0x85 on isa0060/serio0).[0m
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185matkbd serio0: Use 'setkeycodes e005 <keycode>' to make it known.[0m
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopping systemd-backlight@backlight:intel_backlight.service - Load/Save Screen Backlight Brightness of backlight:intel_backlight...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopping systemd-binfmt.service - Set Up Additional Binary Formats...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopping systemd-resolved.service - Network Name Resolution...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopping systemd-timesyncd.service - Network Time Synchronization...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopping systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-binfmt.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-binfmt.service - Set Up Additional Binary Formats.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-timesyncd.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-timesyncd.service - Network Time Synchronization.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-backlight@backlight:intel_backlight.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-backlight@backlight:intel_backlight.service - Load/Save Screen Backlight Brightness of backlight:intel_backlight.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Removed slice system-systemd\x2dbacklight.slice - Slice /system/systemd-backlight.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: proc-sys-fs-binfmt_misc.automount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unset automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: proc-sys-fs-binfmt_misc.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-update-utmp.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-resolved.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-resolved.service - Network Name Resolution.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-resolved.service: Consumed 10.956s CPU time, 7.9M memory peak, 0B memory swap peak.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-sysctl.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-sysctl.service - Apply Kernel Variables.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-modules-load.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-modules-load.service - Load Kernel Modules.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-tmpfiles-setup.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-tmpfiles-setup.service - Create Volatile Files and Directories.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target local-fs.target - Local File Systems.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target snapd.mounts.target - Mounted snaps.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting boot-efi.mount - /boot/efi...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting run-snapd-ns-canonical\x2dlivepatch.mnt.mount - /run/snapd/ns/canonical-livepatch.mnt...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting run-snapd-ns-chromium.mnt.mount - /run/snapd/ns/chromium.mnt...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting run-snapd-ns-cups.mnt.mount - /run/snapd/ns/cups.mnt...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting run-snapd-ns-firefox.mnt.mount - /run/snapd/ns/firefox.mnt...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting run-snapd-ns-firmware\x2dupdater.mnt.mount - /run/snapd/ns/firmware-updater.mnt...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting run-snapd-ns-snap\x2dstore.mnt.mount - /run/snapd/ns/snap-store.mnt...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting run-snapd-ns-snapd\x2ddesktop\x2dintegration.mnt.mount - /run/snapd/ns/snapd-desktop-integration.mnt...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-android\x2dstudio-205.mount - Mount unit for android-studio, revision 205...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-android\x2dstudio-209.mount - Mount unit for android-studio, revision 209...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-bare-5.mount - Mount unit for bare, revision 5...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-canonical\x2dlivepatch-359.mount - Mount unit for canonical-livepatch, revision 359...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-chromium-3248.mount - Mount unit for chromium, revision 3248...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-chromium-3251.mount - Mount unit for chromium, revision 3251...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-code-207.mount - Mount unit for code, revision 207...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-code-208.mount - Mount unit for code, revision 208...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-core20-2599.mount - Mount unit for core20, revision 2599...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-core20-2669.mount - Mount unit for core20, revision 2669...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-core22-2111.mount - Mount unit for core22, revision 2111...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-core22-2133.mount - Mount unit for core22, revision 2133...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-core24-1151.mount - Mount unit for core24, revision 1151...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-cups-1100.mount - Mount unit for cups, revision 1100...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-firefox-6782.mount - Mount unit for firefox, revision 6782...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-firefox-6836.mount - Mount unit for firefox, revision 6836...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-firmware\x2dupdater-167.mount - Mount unit for firmware-updater, revision 167...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-flutter-149.mount - Mount unit for flutter, revision 149...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-gnome\x2d42\x2d2204-202.mount - Mount unit for gnome-42-2204, revision 202...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-gnome\x2d42\x2d2204-226.mount - Mount unit for gnome-42-2204, revision 226...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-gnome\x2d46\x2d2404-125.mount - Mount unit for gnome-46-2404, revision 125...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-gtk\x2dcommon\x2dthemes-1535.mount - Mount unit for gtk-common-themes, revision 1535...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-mesa\x2d2404-912.mount - Mount unit for mesa-2404, revision 912...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-proton\x2dmail-22.mount - Mount unit for proton-mail, revision 22...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-proton\x2dmail-23.mount - Mount unit for proton-mail, revision 23...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-snap\x2dstore-1270.mount - Mount unit for snap-store, revision 1270...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-snapd-24792.mount - Mount unit for snapd, revision 24792...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-snapd-25202.mount - Mount unit for snapd, revision 25202...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting snap-snapd\x2ddesktop\x2dintegration-315.mount - Mount unit for snapd-desktop-integration, revision 315...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: boot-efi.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted boot-efi.mount - /boot/efi.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: run-snapd-ns-canonical\x2dlivepatch.mnt.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted run-snapd-ns-canonical\x2dlivepatch.mnt.mount - /run/snapd/ns/canonical-livepatch.mnt.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: run-snapd-ns-chromium.mnt.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted run-snapd-ns-chromium.mnt.mount - /run/snapd/ns/chromium.mnt.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: run-snapd-ns-cups.mnt.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted run-snapd-ns-cups.mnt.mount - /run/snapd/ns/cups.mnt.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: run-snapd-ns-firefox.mnt.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted run-snapd-ns-firefox.mnt.mount - /run/snapd/ns/firefox.mnt.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: run-snapd-ns-firmware\x2dupdater.mnt.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted run-snapd-ns-firmware\x2dupdater.mnt.mount - /run/snapd/ns/firmware-updater.mnt.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: run-snapd-ns-snap\x2dstore.mnt.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted run-snapd-ns-snap\x2dstore.mnt.mount - /run/snapd/ns/snap-store.mnt.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: run-snapd-ns-snapd\x2ddesktop\x2dintegration.mnt.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted run-snapd-ns-snapd\x2ddesktop\x2dintegration.mnt.mount - /run/snapd/ns/snapd-desktop-integration.mnt.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-android\x2dstudio-205.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-android\x2dstudio-205.mount - Mount unit for android-studio, revision 205.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-android\x2dstudio-209.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-android\x2dstudio-209.mount - Mount unit for android-studio, revision 209.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-bare-5.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-bare-5.mount - Mount unit for bare, revision 5.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-canonical\x2dlivepatch-359.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-canonical\x2dlivepatch-359.mount - Mount unit for canonical-livepatch, revision 359.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-chromium-3248.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-chromium-3248.mount - Mount unit for chromium, revision 3248.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-chromium-3251.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-chromium-3251.mount - Mount unit for chromium, revision 3251.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-code-207.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-code-207.mount - Mount unit for code, revision 207.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-code-208.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-code-208.mount - Mount unit for code, revision 208.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-core20-2599.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-core20-2599.mount - Mount unit for core20, revision 2599.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-core20-2669.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-core20-2669.mount - Mount unit for core20, revision 2669.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-core22-2111.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-core22-2111.mount - Mount unit for core22, revision 2111.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-core22-2133.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-core22-2133.mount - Mount unit for core22, revision 2133.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-core24-1151.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-core24-1151.mount - Mount unit for core24, revision 1151.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-cups-1100.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-cups-1100.mount - Mount unit for cups, revision 1100.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-firefox-6782.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-firefox-6782.mount - Mount unit for firefox, revision 6782.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-firefox-6836.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-firefox-6836.mount - Mount unit for firefox, revision 6836.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-firmware\x2dupdater-167.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-firmware\x2dupdater-167.mount - Mount unit for firmware-updater, revision 167.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-flutter-149.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-flutter-149.mount - Mount unit for flutter, revision 149.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-gnome\x2d42\x2d2204-202.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-gnome\x2d42\x2d2204-202.mount - Mount unit for gnome-42-2204, revision 202.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-gnome\x2d42\x2d2204-226.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-gnome\x2d42\x2d2204-226.mount - Mount unit for gnome-42-2204, revision 226.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-gnome\x2d46\x2d2404-125.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-gnome\x2d46\x2d2404-125.mount - Mount unit for gnome-46-2404, revision 125.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-gtk\x2dcommon\x2dthemes-1535.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-gtk\x2dcommon\x2dthemes-1535.mount - Mount unit for gtk-common-themes, revision 1535.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-mesa\x2d2404-912.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-mesa\x2d2404-912.mount - Mount unit for mesa-2404, revision 912.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-proton\x2dmail-22.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-proton\x2dmail-22.mount - Mount unit for proton-mail, revision 22.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-proton\x2dmail-23.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-proton\x2dmail-23.mount - Mount unit for proton-mail, revision 23.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-snap\x2dstore-1270.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-snap\x2dstore-1270.mount - Mount unit for snap-store, revision 1270.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-snapd-24792.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-snapd-24792.mount - Mount unit for snapd, revision 24792.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-snapd-25202.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-snapd-25202.mount - Mount unit for snapd, revision 25202.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: snap-snapd\x2ddesktop\x2dintegration-315.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted snap-snapd\x2ddesktop\x2dintegration-315.mount - Mount unit for snapd-desktop-integration, revision 315.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target snapd.mounts-pre.target - Mounting snaps.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounting run-snapd-ns.mount - /run/snapd/ns...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-fsck@dev-disk-by\x2duuid-4491\x2dD8AE.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-fsck@dev-disk-by\x2duuid-4491\x2dD8AE.service - File System Check on /dev/disk/by-uuid/4491-D8AE.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Removed slice system-systemd\x2dfsck.slice - Slice /system/systemd-fsck.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: run-snapd-ns.mount: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Unmounted run-snapd-ns.mount - /run/snapd/ns.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target local-fs-pre.target - Preparation for Local File Systems.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped target swap.target - Swaps.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Deactivating swap swap.img.swap - /swap.img...
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-tmpfiles-setup-dev.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: systemd-tmpfiles-setup-dev-early.service: Deactivated successfully.
+Oct 01 13:25:02 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: swap.img.swap: Deactivated successfully.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: Deactivated swap swap.img.swap - /swap.img.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: Reached target umount.target - Unmount All Filesystems.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: systemd-remount-fs.service: Deactivated successfully.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: Stopped systemd-remount-fs.service - Remount Root and Kernel File Systems.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: Reached target shutdown.target - System Shutdown.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: Reached target final.target - Late Shutdown Services.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: systemd-poweroff.service: Deactivated successfully.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: Finished systemd-poweroff.service - System Power Off.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: Reached target poweroff.target - System Power Off.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mShutting down.[0m
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd-shutdown[1]: Syncing filesystems and block devices.
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd-shutdown[1]: Sending SIGTERM to remaining processes...
+Oct 01 13:25:03 llh-HP-EliteBook-840-G3 systemd-journald[278]: Journal stopped

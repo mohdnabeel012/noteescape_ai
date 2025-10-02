@@ -138,7 +138,7 @@ packages:
     source: hosted
     version: "2.13.0"
   aws_common:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: aws_common
       sha256: "81d235b7a020909ac9a0c76be2122e86e35cb886a19ba73b15cd34b1e8ef5f0b"
@@ -518,7 +518,7 @@ packages:
     source: hosted
     version: "1.9.1"
   path_provider:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path_provider
       sha256: "50c5dd5b6e1aaf6fb3a78b33f6aa3afca52bf903a8a5298f53101fdaee55bbcd"

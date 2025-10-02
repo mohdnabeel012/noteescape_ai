@@ -42,6 +42,8 @@ dependencies:
 
   go_router: ^16.2.4
   amplify_storage_s3: ^2.6.5
+  path_provider: ^2.1.5
+  aws_common: ^0.7.10
 
 dev_dependencies:
   flutter_test:
